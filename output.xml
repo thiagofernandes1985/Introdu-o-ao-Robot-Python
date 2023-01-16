@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.2 (Python 3.11.1 on darwin)" generated="20230116 11:32:59.225" rpa="false" schemaversion="3">
+<suite id="s1" name="MeuTeste" source="/Users/thiago.fernandes/PycharmProjects/pythonProject/MeuTeste.robot">
+<test id="s1-t1" name="caso numero 01" line="5">
+<kw name="Minha primeira keyword" library="MeuResource">
+<kw name="Log To Console" library="BuiltIn">
+<arg>${\n}Oba!Executei meu primeiro teste com Robot</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230116 11:32:59.246" endtime="20230116 11:32:59.246"/>
+</kw>
+<status status="PASS" starttime="20230116 11:32:59.246" endtime="20230116 11:32:59.246"/>
+</kw>
+<status status="PASS" starttime="20230116 11:32:59.245" endtime="20230116 11:32:59.247"/>
+</test>
+<status status="PASS" starttime="20230116 11:32:59.226" endtime="20230116 11:32:59.247"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="MeuTeste">MeuTeste</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
